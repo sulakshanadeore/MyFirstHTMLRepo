@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Check()
+        {
+            var i=document.getElementById("no1").value;
+if(i<0)
+{           
+if(confirm("Are you sure about the input?)"))
+{
+    
+    alert("Yes confirmed ..u clicked ok");
+console.log("Yes confirmed");
+    }
+    else   
+     {
+alert("U clicked No");
+    console.log("No");
+
+}
+}
+}
+   </script>
+</head>
+<body>
+    <form>
+        <input type="number" name="" id="no1"> 
+        <input type="button" value="Confirm?" onclick="Check()" >
+    </form>
+    
+</body>
+</html>

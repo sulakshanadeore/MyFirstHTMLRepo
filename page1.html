@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+function f1()
+{
+alert("Hello");
+
+}
+
+    </script>
+    <noscript>
+        Not supported
+    </noscript>
+</head>
+<body onload="f1()">
+  <form ondblclick="f1()">
+    <fieldset>
+    <legend>Personal Info</legend>
+    <label for="fname">Enter Name:</label>
+    <input type="text" name="fname" id="fname" value="AB">
+    <br/>
+    <label for="lastname">Enter LastName</label>
+    <input type="text" name="lastname" id="lastname" value="AA">
+    <br/>
+    <label>Select Payment Mode</label>
+   <input type="radio" name="mode" id="rdoCash" value="Cash">Cash
+    <input type="radio" name="mode" id="rdoUPI" value="UPI Banking"> UPI
+    <input type="radio" name="mode" id="rdoNB" value="NetBanking">NetBanking
+<br/>
+<label for="Degree">Select Education</label>
+<input type="checkbox" name="degree" id="degree" value="10">10
+<input type="checkbox" name="degree" id="degree" value="10+2">10+2
+<input type="checkbox" name="degree" id="degree" value="Btech">Btech
+<input type="checkbox" name="degree" id="degree" value="Mtech">Mtech
+<br/>
+<label>select</label>
+<select name="City" id="ddlCity" multiple >
+<option value="PNQ">Pune</option>
+<option value="MUM">Mumbai</option>
+<option value="BLR">Bangalore</option>
+<option value="CHN">Chennai</option>
+</select>
+<input type="color" name="showcolors" id="c">
+<br/>
+<input type="datetime-local" name="" id="">
+<br>
+<input type="date" name="" id="">
+<input type="email" name="" id="">
+<input type="url" name="" id="">
+<input type="range" name="" id="" min="10" max="30" value="10" step="2">
+    <button onclick="f1()">Submit</button>
+</fieldset>
+  </form>  
+
+<script>
+    console.log("This is teh end of the document")
+</script>
+
+</body>
+</html>
